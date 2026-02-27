@@ -1,0 +1,19 @@
+#sobreMim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 50px;
+    height: 100vh;
+    gap: 50px;
+    border-block: 3px solid rbga(0, 0, 0, 0.200);
+}
+#resumo {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    gap: 20px;
+}
+#resumo h2 {
+    font-size: 4rem;
+    color: rgb(188, 0, 213);
+}
