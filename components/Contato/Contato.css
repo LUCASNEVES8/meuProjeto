@@ -1,0 +1,58 @@
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    gap: 30px;
+}
+#contato h2 {
+    font-size: 4rem;
+    color: rgb(188, 0, 213);
+}
+#contato p {
+    font-size: 1.5rem;
+}
+#contato div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    width: 50%;
+    max-width: 1200px;
+}
+label {
+    display: block;
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    min-width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #0056b3;
+}
+@media screen and (max-width: 1090px) {
+    #contato h2 {
+        font-size: 2.5rem;
+    }
+    #contato p {
+        font-size: 1.2rem;
+    }
+    form {
+        width: 80%;
+    }
+}

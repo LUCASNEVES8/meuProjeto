@@ -3,13 +3,14 @@ import "../Header/Header.css"
 export function Header() {
     return(
         <header>
-            <h1>Portifólio</h1>
+            <h1>Portfólio</h1>
             <nav>
                 <ul>
-                    <a href="#sobreMim"><li>Sobre mim</li></a>
-                    <a href="#contato"><li>Contato</li></a>
+                    {/* A tag <a> deve ficar dentro da <li> para melhor semântica */}
+                    <li><a href="#sobreMim">Sobre mim</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
-            </header>
+        </header>
     )
 }

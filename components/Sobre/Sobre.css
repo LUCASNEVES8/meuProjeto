@@ -2,10 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-inline: 50px;
-    height: 100vh;
+    padding: 80px 50px; /* Padding em vez de altura fixa */
+    min-height: 100vh; 
     gap: 50px;
-    border-block: 3px solid rbga(0, 0, 0, 0.200);
+    /* Corrigido de rbga para rgba */
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Adicionando uma transição suave para os links do menu no Header.css se desejar */
+a {
+    transition: color 0.3s ease;
 }
 #resumo {
     display: flex;
