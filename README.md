@@ -1,16 +1,35 @@
-# React + Vite
+# 📦 meuProjeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto é uma base inicial usando **React + Vite** para criação de aplicações frontend modernas.
 
-Currently, two official plugins are available:
+Ele inclui a configuração mínima para iniciar rapidamente um app com React, ESLint e Vite. :contentReference[oaicite:2]{index=2}
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este projeto foi desenvolvido com:
 
-## Expanding the ESLint configuration
+- **React** – Biblioteca de UI para construir a interface
+- **Vite** – Ferramenta de build super-rápida
+- **ESLint** – Linter para manter consistência de código
+- **JavaScript / HTML / CSS** – Tecnologias web padrão :contentReference[oaicite:3]{index=3}
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Pré-requisitos
+
+Antes de rodar o projeto, garanta que você tenha:
+
+- Node.js instalado (versão recomendada ≥ 14)
+- npm (ou yarn) :contentReference[oaicite:4]{index=4}
+
+---
+
+## 🚀 Como executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/LUCASNEVES8/meuProjeto.git
+cd meuProjeto
